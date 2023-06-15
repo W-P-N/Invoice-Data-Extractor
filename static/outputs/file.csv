@@ -1,0 +1,6 @@
+,,Doc-Type,Doc-Number,Customer Address,Customer Name,Date,Supplier Address,Supplier Name,Total Amt,Total Value,Description,Quantity,Tax Amount,Tax rate,Unit Price,Item Total Amount
+Information,0,INVOICE,,"555 Construction Lane Los Altos, CA 94024",DOE RESIDENCE,2014-01-16,"P.O Box 248 Mountain View, CA 94042 Lic.#555838",AAAKER HOMES NEW HOMES I ADDITIONSIEEMODES,24500.0,24500.0,,,,,,
+Items,0,,,,,,,,,,Demo Line 245 progress payment,,,,,750.0
+Items,1,,,,,,,,,,Framing Line 605 progress payment,90.0,,,,11500.0
+Items,2,,,,,,,,,,Rough Plumbing Line 610 progress payment,90.0,,,,8750.0
+Items,3,,,,,,,,,,Rough Electrical Line 625 progress payment,10.79,,,,3500.0
