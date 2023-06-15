@@ -15,8 +15,6 @@ csrf_token = "fiuh42fuo3htijfm2"  # Token used for CSRF protection.
 
 app = Flask(__name__)
 
-"f83b4a6fce2000c20bafc281a907fcfc"
-
 # Application configuration:
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER  # Folder path.
 app.config['OUTPUT_FOLDER'] = OUTPUT_FOLDER
