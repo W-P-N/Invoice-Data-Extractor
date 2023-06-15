@@ -1,12 +1,5 @@
 {
-    "buildCommand": "next build",
-
-    "builds": [
-        {
-            "src": "main.py",
-            "use": "@vercel/python"
-        }
-    ],
-
-    "cleanUrls": true
+    "rewrites": [
+        { "source": "/(.*)", "destination": "main" }
+    ]
 }
