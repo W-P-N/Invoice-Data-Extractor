@@ -8,7 +8,7 @@ from mindee import Client, documents
 print(os.environ.get("MINDEE_API_KEY"))
 mindee_client = Client(api_key=os.getenv("MINDEE_API_KEY"))
 
-UPLOAD_FOLDER = 'flask_Druidot/static/uploads'  # Folder path
+UPLOAD_FOLDER = 'static/uploads'  # Folder path
 OUTPUT_FOLDER = 'static/outputs' # Folder path
 ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg'}  # Extensions supported.
 csrf_token = "fiuh42fuo3htijfm2"  # Token used for CSRF protection.
