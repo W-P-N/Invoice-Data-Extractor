@@ -3,11 +3,10 @@ from werkzeug.utils import secure_filename
 import os
 import pandas as pd
 from mindee import Client, documents
-from io import StringIO
-import csv
 
 # Init a new client
-mindee_client = Client(api_key="f83b4a6fce2000c20bafc281a907fcfc")
+print(os.environ.get("MINDEE_API_KEY"))
+mindee_client = Client(api_key=os.getenv("MINDEE_API_KEY"))
 
 UPLOAD_FOLDER = 'flask_Druidot/static/uploads'  # Folder path
 OUTPUT_FOLDER = 'static/outputs' # Folder path
@@ -15,6 +14,8 @@ ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg'}  # Extensions supported.
 csrf_token = "fiuh42fuo3htijfm2"  # Token used for CSRF protection.
 
 app = Flask(__name__)
+
+"f83b4a6fce2000c20bafc281a907fcfc"
 
 # Application configuration:
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER  # Folder path.
