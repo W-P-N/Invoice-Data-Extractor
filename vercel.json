@@ -10,5 +10,12 @@
             "src":"/(.*)",
             "dest": "main.py"
         }
+    ],
+    "functions": [
+        {
+            "main.py": {
+                "includeFiles": "pandas"
+            }
+        }
     ]
 }
