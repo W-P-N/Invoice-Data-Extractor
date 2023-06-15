@@ -7,10 +7,6 @@
             "use": "@vercel/python"
         }
     ],
-    "routes":[
-        {
-            "src":"/(.*)",
-            "dest": "/"
-        }
-    ]
+
+    "cleanUrls": true
 }
