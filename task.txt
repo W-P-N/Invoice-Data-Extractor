@@ -1,6 +1,0 @@
-Assignment:
-1. Allow user to upload a image file consisting of data (example invoice)
-2. Write logic to extract the data from the image
-3. Allow user to schedule the time he/she can extract the data from the image
-4. Upload it on vercel app or pythonanywhere or on streamlit or on similar website and share the url
-Do not share the code or github links
